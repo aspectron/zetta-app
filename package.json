@@ -1,0 +1,92 @@
+{
+  "name": "zetta-app",
+  "description": "Zetta Toolkit - Application Framework",
+  "version": "0.1.29",
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com"
+  },
+  "dependencies": {
+    "zetta-utils": "*",
+    "zetta-stats": "*",
+    "zetta-rpc": "*",
+    "zetta-translator": "*",
+    "zetta-base58": "*",
+    "getmac": "*",
+    "underscore": "*",
+    "nodemailer": "*",
+    "nodemailer-pickup-transport": "*",
+    "mongodb": "*",
+    "connect-mongo": "*",
+    "express": "*",
+    "connect": "*",
+    "socket.io": "*",
+    "ejs": "*",
+    "jade": "*",
+    "ect": "*",
+    "cookie": "*",
+    "cookie-signature": "*",
+    "basic-auth": "*",
+    "express-session": "*",
+    "cookie-session": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "method-override": "*",
+    "serve-static": "*",
+    "errorhandler": "*",
+    "node-uuid": "*",
+    "bcrypt-nodejs": "*",
+    "notp": "*",
+    "thirty-two": "*"
+  },
+  "keywords": [
+    "utilities",
+    "framework",
+    "json",
+    "rpc",
+    "zetta"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aspectron/zetta-app.git"
+  },
+  "main": "zetta-app",
+  "files": [
+    "zetta-app.js",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/aspectron/zetta-app/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/aspectron/zetta-app",
+  "gitHead": "6f0caca09a13041bb4ad1b8f8b23ece6eb2ac08c",
+  "_id": "zetta-app@0.1.28",
+  "_shasum": "74e31965a28df6aec8f9a05bbdf9cd25f222e528",
+  "_from": "zetta-app@*",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "aspect",
+    "email": "anton.yemelyanov@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "aspect",
+      "email": "anton.yemelyanov@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "74e31965a28df6aec8f9a05bbdf9cd25f222e528",
+    "tarball": "http://registry.npmjs.org/zetta-app/-/zetta-app-0.1.28.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/zetta-app/-/zetta-app-0.1.28.tgz",
+  "readme": "ERROR: No README data found!"
+}
